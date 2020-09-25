@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.displayy {
+	width: 70vw;
+	height: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.col_one {
+	width: 48%;
+	height: 100%;
+	float: left;
+}
+
+.col_two {
+	width: 48%;
+	height: 100%;
+	float: right;
+}
+
+.topleft {
+	width: calc(100-30px);
+	height: 70px;
+	
+	font-family: bree-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+
+	font-size: 40px;
+	padding-left: 30px;
+	color: white;
+	background-color: rgb(176, 25, 78);
+}
+
+.alignment {
+	width: 95%;
+	float: right;
+}
+
+table {
+	margin-top: 5px;
+	width: 100%;
+
+	font-size: 25px;
+	float: left;
+}
+
+
+thead tr th {
+	background-color: rgb(176, 25, 78);
+	color: white;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+}	
+
+thead tr {
+	height: 50px;
+}
+
+section .alignment table thead tr th:nth-child(2n) {
+	padding-right: 20%;
+}
+
+table thead tr th:nth-child(3n) {
+	padding-right: 5%;
+}
+
+thead tr td {
+	
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+}
+
+.botleft {
+	width: 50%;
+
+	font-family: bree-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 50px;
+	color: rgb(52, 90, 125);
+}
+
+.line {
+	width: 100%;
+	height: 5px;
+	background-color: rgb(52, 90, 125);
+}
+
+h1 {
+	font-family: bree-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: 10px;
+	font-size: 25px;
+	color: rgb(52, 90, 125);
+}
+
+h2 {
+	font-family: bree-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+
+	padding-left: 20px;
+}
+
+li {
+	font-family: bree-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+
+	padding-left: 20px;
+
+}
+
+h3 {
+	font-family: bree-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+
+}
+
+.blue {
+	color: rgb(52, 90, 125);
+	margin-top: 5px;
+}
+
+.topright {
+	font-family: bree-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+
+	width: 100%;
+	float: right;
+	margin-left: 40%;
+}
+
+.skuyone {
+	text-align: right;
+	font-size: 45px;
+}
+
+.skuytwo {
+	text-align: right;
+	font-size: 250px;
+}
+
+.memo {
+	border-radius: 20px;
+	background-color: rgb(224,181,230);
+	padding-right: 20px;
+	padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 40%;
+}
+
+.linetwo {
+	width: 100%;
+	height: 2px;
+	background-color: rgb(31, 64, 49);
+}
+
+.title {
+	font-family: bree-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
+	padding-left: 2px;
+}
+
+
+main.col_two table tr td:nth-child(1) {
+	font-size: 50px;
+}
+
+main.col_two table tr td:nth-child(2) {
+	font-size: 20px;
+	padding-left: 50px;
+}
+
+main.col_two table tr td:nth-child(3) {
+	float:right;
+}
+
+.bold {
+	font-size: 25px;
+	font-family: bree-serif, serif;
+	font-weight: 400;
+	font-style: bold;
+
+}
